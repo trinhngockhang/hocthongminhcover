@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Input from './Components/inputStateless.js';
+import ChatBox from './Components/ChatBoxStateless.js';
 
 class App extends Component {
   render() {
     return (
       <div>
-       <Input></Input>
+       <ChatBox></ChatBox>
       
       </div>
     );
