@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import ChatBox from './Components/ChatBoxStateless.js';
+import Home from './Components/Containers/Home/Home'
 
 class App extends Component {
   render() {
     return (
       <div>
-       <ChatBox></ChatBox>
-      
+        <Home/>
+      ss
       </div>
     );
   }
