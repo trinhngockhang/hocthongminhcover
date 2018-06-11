@@ -22,16 +22,16 @@ class Header extends Component{
 						</div>
 					</div>
 					<div className="col col-xs-4 col-sm-4">
-						<input id="search-panel" className="form-control" type="text" placeholder="Tìm kiếm khoá học" onkeypress="return searchCard(event)"/>
+						<input id="search-panel" className="form-control" type="text" placeholder="Tìm kiếm khoá học" />
 					</div>
 					<div className="col col-xs-12 col-sm-4">
 						<div className="login-pos-panel">
-							<div id="loginPanelclassName"><table cellspacing="0" cellpadding="0">
+							<div id="loginPanelclassName"><table cellSpacing="0" cellPadding="0">
                             <tbody>
                                 <tr>
                                     <td align="left" style={{verticalAlign: 'top'}}>
                                     <div>
-                                        <table cellspacing="0" cellpadding="0" style="">
+                                        <table cellSpacing="0" cellPadding="0" >
                                         <tbody>
                                             <tr>
                                                 <td align="left" style={{verticalAlign: 'middle'}}>
@@ -44,12 +44,12 @@ class Header extends Component{
                                                 </tbody>
                                                 </table> 
                                                 <div className="dropdown loginRootDropdown-hocthongminh" tabindex="0" aria-hidden="true" style={{outline: 'none', display: 'none'}}>
-                                                <a className="btn dropdown-toggle logindropdown" data-toggle="dropdown" style={{backgroundColor:'transparent',type="button"}}> 
-                                                <table cellspacing="0" cellpadding="0">
+                                                <a className="btn dropdown-toggle logindropdown" data-toggle="dropdown" style={{backgroundColor:'transparent'}}> 
+                                                <table cellSpacing="0" cellPadding="0">
                                                 <tbody>
                                                     <tr>
                                                         <td align="left" width="45px" style={{verticalAlign: 'middle'}}>
-                                                        <table cellspacing="0" cellpadding="0" className="imageAvatar" style={{borderRadius: '100%', position: 'relative', cursor: 'pointer'}}>
+                                                        <table cellSpacing="0" cellPadding="0" className="imageAvatar" style={{borderRadius: '100%', position: 'relative', cursor: 'pointer'}}>
                                                         <tbody>
                                                             <tr>
                                                                 <td align="center" style={{verticalAlign: 'middle'}}>
@@ -58,8 +58,9 @@ class Header extends Component{
                                                                 <tr>
                                                                     <td align="center" style={{verticalAlign: 'middle'}}>
                                                                     <img src="../resources/images/default_avatar.jpg" className="gwt-Image" style={{width: '35px', height: '35px', borderRadius: '100%'}}/>
-                                                                    </td></tr><tr><td align="center" style={{verticalAlign: 'middle'}}><div className="gwt-HTML btn-link" style="cursor: pointer; font-size: 12px;">
-                                                                    </div></td></tr></tbody></table></td><td align="left" style="vertical-align: middle;"><div><div className="gwt-HTML name-user dot-1" style="color: black; font-size: 14px;">Đăng nhập</div><div className="KJB"></div></div></td></tr></tbody></table> </a> <ul className="dropdown-menu" id="xxxx_dropdown-menu" style="padding: 0px; z-index: 999999999;"> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB JJB"></div> </ul></div></div></td></tr></tbody></table></div>
+                                                                    </td></tr><tr><td align="center" style={{verticalAlign: 'middle'}}>
+                                                                    <div className="gwt-HTML btn-link" style={{cursor: 'pointer', fontSize: '12px'}}>
+                                                                    </div></td></tr></tbody></table></td><td align="left" style={{verticalAlign: 'middle'}}><div><div className="gwt-HTML name-user dot-1" style={{color: 'black', fontSize: '14px'}}>Đăng nhập</div><div className="KJB"></div></div></td></tr></tbody></table> </a> <ul className="dropdown-menu" id="xxxx_dropdown-menu" style={{padding: '0px', zIndex: '999999999'}}> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB JJB"></div> </ul></div></div></td></tr></tbody></table></div>
 							<button className="button-login-main">Đăng nhập</button> 
  							<button className="button-login-main">Đăng ký</button> 
 						</div>
