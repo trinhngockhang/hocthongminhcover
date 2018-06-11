@@ -1,0 +1,80 @@
+import React,{Component} from 'react';
+import {Data} from './Data';
+class HotCourse extends Component{
+    render(){
+        return(
+            <div classNameName="container hot-course" id="course-scroll">
+		    <div classNameName="title-main">
+			    <div>KHOÁ HỌC NỔI BẬT</div>
+		    </div>
+		<div classNameName="des">Đa dạng các khoá học cho bạn lựa chọn. Giúp việc học trở nên dễ dàng hơn</div>
+        
+        <div classNameName = "classNamees-panel row" id ="panel-course" style={{marginTop:'15px'}} >
+            {
+            Data.map(function(object,index){
+            return    <div className="col col-xs-12 col-sm-4 col-md-3 col-lg-3 course-items page-course-1  active">
+                        <div className="content-course" >
+                            <div className="header-classNamees">
+                                <img className="img_" src="https://storage.googleapis.com/kslearning/images/306093931-1512191847608-991463323-1511103795033-baoinso2422119052015110409-min (copy).jpg"/>
+                                <div className="header-hover-classNamees">
+                                    <div className="panelButtonclassName">
+                                        <div style={{width:'49%',display:'inline-block',verticalAlign:'middle'}}>
+                                            <button className="btn-view-details" data-id="5738458366607360" onclick="gotoUrl(this)">Xem chi tiết
+                                            </button></div>
+                                            <div style={{width:'49%',display:'inline-block',verticalAlign:'middle'}}>
+                                            <button className="btn-buy-now" onclick="gotoUrlEnroll(this)">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="content-classNamees">
+                                <div style={{display: '-webkit-box'}}> 
+                                    <p className="name-course dot-1" title="VNUA Tư tưởng HCM">{object.name}</p>
+                                </div>
+                                <div style={{overflow: 'hidden'}}>
+                                    <div style={{display: 'inline-block',width: '35%', verticalAlign: 'top'}}>
+                                    <p className="money-course">{object.price}</p>
+                                    </div>
+                                    <div style={{display: 'inline-block', width: '64%'}}>
+                                     <img className="img-persion-num" src="resources/images/member-01.png"/>
+                                    <p className="text-persion-num" style={{display: 'inline-block'}}>{object.users}</p>
+                                    <p className="star-count" style={{display: 'inline-block',float: 'right', paddingTop: '4px'}}>
+                                        {/* {for (let index = 0; index < array.length; index++) {
+                                            const element = array[index];
+                                            
+                                        }
+                                        } */}
+                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
+                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
+                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
+                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
+                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
+                                    </p>
+                                    </div>
+                                    <p className="des-course dot-3" title={object.description}></p>
+                        <hr style={{margin: '10px 0',display:'none'}}/>
+                        <div className="info-user-course" style={{display:'none'}}>
+                        <img className="avatar" src="resources/images/home/avatar-course.png"/>
+                        <strong className="name">Create By Nguyễn Như Hoàng Anh</strong>
+                        <img className="img-persion-num" src="resources/images/member-01.png"/>
+                        <strong className="text-persion-num">0</strong>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+            })
+          }
+
+        </div>   
+
+		<div classNameName="row">
+            <button style={{margin: '30px auto !important',display: 'block',marginTop: '10px !important'}} 
+            classNameName="show-more" >Xem tất cả khoá học</button>
+		</div>
+	</div>
+     )
+}
+}
+
+export default HotCourse;

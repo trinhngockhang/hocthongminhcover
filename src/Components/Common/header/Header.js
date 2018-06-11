@@ -5,7 +5,7 @@ class Header extends Component{
         return(
         <div>
             <nav className="navbar navbar-default navbar-fixed-top">
-		<div style={{borderBottom: "1px solid #ddd"}}>
+		<div style={{borderBottom: "1px solid #ddd",width:'100%'}}>
 			<div className="container">
 				<div className="row navbar-first">
 					<div className="col col-xs-12 col-sm-4">
@@ -43,7 +43,7 @@ class Header extends Component{
                                                 </tr>
                                                 </tbody>
                                                 </table> 
-                                                <div className="dropdown loginRootDropdown-hocthongminh" tabindex="0" aria-hidden="true" style={{outline: 'none', display: 'none'}}>
+                                                <div className="dropdown loginRootDropdown-hocthongminh" tabIndex="0" aria-hidden="true" style={{outline: 'none', display: 'none'}}>
                                                 <a className="btn dropdown-toggle logindropdown" data-toggle="dropdown" style={{backgroundColor:'transparent'}}> 
                                                 <table cellSpacing="0" cellPadding="0">
                                                 <tbody>
@@ -57,12 +57,10 @@ class Header extends Component{
                                                                 </tr>
                                                                 <tr>
                                                                     <td align="center" style={{verticalAlign: 'middle'}}>
-                                                                    <img src="../resources/images/default_avatar.jpg" className="gwt-Image" style={{width: '35px', height: '35px', borderRadius: '100%'}}/>
+                                                                    <img src={require('../../../static/images/home/default_avatar.jpg')} className="gwt-Image" style={{width: '35px', height: '35px', borderRadius: '100%'}}/>
                                                                     </td></tr><tr><td align="center" style={{verticalAlign: 'middle'}}>
                                                                     <div className="gwt-HTML btn-link" style={{cursor: 'pointer', fontSize: '12px'}}>
                                                                     </div></td></tr></tbody></table></td><td align="left" style={{verticalAlign: 'middle'}}><div><div className="gwt-HTML name-user dot-1" style={{color: 'black', fontSize: '14px'}}>Đăng nhập</div><div className="KJB"></div></div></td></tr></tbody></table> </a> <ul className="dropdown-menu" id="xxxx_dropdown-menu" style={{padding: '0px', zIndex: '999999999'}}> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB"></div> <div className="LJB JJB"></div> </ul></div></div></td></tr></tbody></table></div>
-							<button className="button-login-main">Đăng nhập</button> 
- 							<button className="button-login-main">Đăng ký</button> 
 						</div>
 					</div>
 				</div>
@@ -76,10 +74,10 @@ class Header extends Component{
 						<span className="icon-bar"></span> 
 						<span className="icon-bar"></span>
 				</button>
-				<a href="/"><img className="logo-main" src="../resources/images/default/logo.png"/></a>
+				<a href="/"><img className="logo-main" src={require('../../../static/images/default/logo.png')}/></a>
 			</div>
 			<div id="navbar" className="navbar-collapse collapse" aria-expanded="false">
-				<ul className="nav navbar-nav navbar-nav-list-header">
+				<ul className="nav navbar-nav navbar-nav-list-header" id="menuright">
 					<li className=""><a href="#" onclick="scrollToElement('html, body', '#first-slide-banner', 60);">TRANG CHỦ</a></li>
 					<li><a href="#course" onclick="scrollToElement('html, body', '#course-scroll', 0);">KHOÁ HỌC</a></li>
 					

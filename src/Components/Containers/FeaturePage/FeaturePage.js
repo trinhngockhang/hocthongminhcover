@@ -8,10 +8,9 @@ export default class FeaturePageUi extends Component {
     showFooter = () => <Footer/>;
     showContent = () => {
         return (
-            <div>Hello chicken!!</div>
+            <div></div>
         )
     }
-
 
     renderPage = () => {
         return (
@@ -21,6 +20,7 @@ export default class FeaturePageUi extends Component {
                     {this.showContent()}   
                     {this.showFooter()}
                 </div>
+             
             </div>
         )
     }

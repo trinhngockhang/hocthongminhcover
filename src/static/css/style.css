@@ -1,0 +1,128 @@
+
+@import '/node_modules/font-awesome/scss/font-awesome';
+
+.navbar-first {
+    width: 100%;
+    height: 40px;
+    padding-top: 0px;
+}
+.login-pos-panel {
+    float: right;
+}
+.navbar-default {
+    background-color: white;
+}
+.navbar {
+    min-height: 78px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.button-login-main {
+    background-color: #3a89fb;
+    color: white;
+    border: 0;
+    font-weight: 300;
+    padding: 7px 20px;
+    border-radius: 30px;
+    margin: 0 10px;
+    font-size: 13px;
+    outline: none;
+}   
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.hotline {
+    display: inline-block;
+}
+
+.follow {
+    display: inline-block;
+}
+
+.follow i {
+    vertical-align: middle;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-right: 3px;
+}
+.navbar-first .hotline {
+    float: left;
+    margin-top: 7px;
+    font-weight: 500;
+    color: #777;
+}
+.navbar-first .follow {
+    float: right;
+    margin-top: 7px;
+    color: #777;
+    font-weight: 500;
+}
+.logo-main {
+    width: 50px;
+    padding: 3px 0;
+}
+.navbar-nav-list-header {
+    float: right;
+}
+.navbar-header{
+    float: left;
+}
+#menuright {
+    float: right;
+}
+.nav > li {
+    position: relative;
+    display: block;
+}
+.navbar-first .form-control {
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 13px;
+}
+
+.navbar-first .form-control {
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+.container{
+    display: block;
+}    
+.follow i {
+    vertical-align: middle;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-right: 3px;
+}
+
+.title-main {
+    font-family: SourceSansProSemibold;
+}
+.title-main {
+    text-align: center;
+    color: #254DAA;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.title-main > div {
+    font-size: 27px;
+    font-weight: 700;
+    color: #3a89fb;
+    display: inline-block;
+    border-bottom: 1px solid #3a89fb;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.des {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
