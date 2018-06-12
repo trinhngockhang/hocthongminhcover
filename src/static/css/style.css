@@ -371,3 +371,10 @@ li {
     font-size: 13px;
     font-style: italic;
 }
+.slide {
+    margin-top: 70px;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+}

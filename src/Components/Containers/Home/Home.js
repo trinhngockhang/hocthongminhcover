@@ -16,7 +16,6 @@ export default class Home extends FeaturePageUi {
             document.querySelector('body').appendChild(tag);
           }
          loadScript('./js/owl.carousel.min.js');
-         loadScript('./js/owl.carousel.js');
     }
     showContent = () => {
         return (
