@@ -4,7 +4,7 @@
 .navbar-first {
     width: 100%;
     height: 40px;
-    padding-top: 0px;
+    padding-top: 3px;
 }
 .login-pos-panel {
     float: right;
@@ -125,4 +125,249 @@ li {
     text-align: center;
     color: #444;
     margin-bottom: 20px;
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.classes-panel {
+    text-align: center;
+    overflow: hidden;
+    padding: 5px 0 15px;
+}
+.course-items.active {
+    display: block;
+}
+.course-items .content-course {
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 10px #ddd;
+    min-height: 320px;
+}
+.header-classes {
+    position: relative;
+}
+.header-classes img {
+    width: 100%;
+    height: 150px;
+}
+.header-hover-classes {
+    display: none;
+}
+.panelButtonClass {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+.btn-view-details {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 700;
+    margin-right: 2%;
+    float: right;
+    cursor: pointer;
+}
+.btn-buy-now {
+    background: #74BC60;
+    border: 1px solid #74BC60;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 700;
+    margin-left: 10%;
+    float: left;
+}
+.name-course {
+    font-weight: 700;
+    width: calc(100% - 55px);
+    height: 20px;
+}
+.dot-1 {
+    -webkit-line-clamp: 1!important;
+}
+.money-course {
+    color: #74BC60;
+    font-weight: 700;
+}
+.img-persion-num {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.des-course {
+    height: 60px;
+}
+.dot-3 {
+    -webkit-line-clamp: 3!important;
+}
+.dot-1, .dot-2, .dot-3, .dot-4, .dot-5, .dot-6 {
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    display: -webkit-box!important;
+    -webkit-box-orient: vertical!important;
+}
+.course-items {
+    margin: 10px 0;
+    display: none;
+}
+.header-hover-classes {
+    display: none;
+}
+
+.content-classes {
+    padding: 10px;
+    text-align: left;
+}
+.content-classes {
+    padding: 10px;
+    text-align: left;
+}
+.course-items:HOVER .header-hover-classes {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+}
+
+.show-more, .show-less {
+    cursor: pointer;
+    background: #59a246;
+    color: #fff;
+    font-size: 16px;
+    margin: 20px auto!important;
+    width: 215px;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 50px;
+    float: none;
+}
+.show-more, .show-less {
+
+    margin: 15px;
+    cursor: pointer;
+}
+.logo-footer {
+    width: 120px;
+}
+
+.bg-why {
+    margin-bottom: 30px;
+    background-image: url(../images/hocthongminh/bg-why.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 130px;
+}
+.title-main {
+    font-family: SourceSansProSemibold;
+}
+.title-main {
+    text-align: center;
+    color: #254DAA;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.btn-follow-us {
+    border: 0;
+    background: 0;
+    font-weight: bold;
+    float: left;
+    padding: 0;
+}
+.title-main > div {
+    font-size: 27px;
+    font-weight: 700;
+    color: #3a89fb;
+    display: inline-block;
+    border-bottom: 1px solid #3a89fb;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.des {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+.item-why img {
+    margin: 0 auto;
+    display: block;
+}
+
+#new-white {
+    color: white;
+    border-color: white;
+}
+.item-why > div {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.item-why > div strong {
+    font-size: 19px;
+}
+.item-why p {
+    margin-top: 15px;
+}
+
+.bg-news {
+    background-image: url(../images/hocthongminh/bg-news.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.title-main {
+    font-family: SourceSansProSemibold;
+}
+.title-main {
+    text-align: center;
+    color: #254DAA;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.title-main-color-white > div {
+    color: white;
+    border-color: white;
+}
+.title-main > div {
+    font-size: 27px;
+    font-weight: 700;
+    color: #3a89fb;
+    display: inline-block;
+    border-bottom: 1px solid #3a89fb;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+#slider-news .item {
+    padding: 20px;
+}
+
+.item {
+    max-width: 100%;
+    height: auto;
+}
+
+.des-color-white {
+    color: white;
+    text-align: left;
+    font-weight: normal;
+    font-family: SourceSansProLight;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+}
+.dot-4 {
+    -webkit-line-clamp: 4!important;
+}
+.des-time {
+    font-family: SourceSansProLight;
+    font-size: 13px;
+    font-style: italic;
 }

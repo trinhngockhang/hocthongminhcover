@@ -3,6 +3,9 @@ import React, { Component}  from 'react';
 import SlideProAll from '../../Common/content/SlideProAll';
 import {handleScript} from '../../../static/js/handleScript';
 import HotCourse from '../../Common/content/HotCourse';
+import Why from '../../Common/content/Why';
+import New from '../../Common/content/New';
+import Feedback from '../../Common/content/Feedback';
 export default class Home extends FeaturePageUi {
   
     componentDidMount(){
@@ -20,6 +23,9 @@ export default class Home extends FeaturePageUi {
             <div>
                 <SlideProAll/>
                 <HotCourse/>
+                <Why/>
+                <Feedback/>
+                <New/>
             </div>
         )
     }
