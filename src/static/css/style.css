@@ -378,3 +378,61 @@ li {
 .owl-carousel .owl-wrapper-outer {
     overflow: hidden;
 }
+.bg-feedback {
+    background-image: url(../images/hocthongminh/bg-feedback.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.bg-feedback .feedback-parent-panel-1 {
+    padding: 20px 0;
+    padding-right: 20px;
+}
+.line-col {
+    background: #ffffff94;
+    width: 1px;
+    height: calc(100% - 50px);
+    position: absolute;
+    left: 50%;
+    top: 25px;
+}
+.bg-feedback .feedback-parent-panel-2 {
+    padding: 20px 0;
+    padding-left: 20px;
+}
+.title-feebback {
+    font-size: 25px;
+}
+.short-line {
+    background-color: #3a89fb;
+    width: 100px;
+    height: 4px;
+    margin: 10px 0;
+}
+.mg-des-feddback {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.des-feddback {
+    color: #ddd;
+    font-weight: 200;
+    font-size: 13px;
+    font-family: SourceSansProLight;
+}
+.director-info > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#director-avatar {
+    border-radius: 100%;
+    border: 1px solid #ffffff7a;
+    width: 80px;
+    height: 80px;
+}
+.bg-feedback {
+    overflow: hidden;
+}
