@@ -3,7 +3,7 @@ exports.Data = [
         name: "VNUA Vi sinh vật đại dương",
         price: "30.000VND",
         users: "256",
-        rate: "5",
+        rate: "0.5",
         img : "https://storage.googleapis.com/kslearning/images/921144420-1527348888218-vnua_visinhvatdaicuong.jpg",
         description:"Khóa học và thi thử miễn phí với ngân hàng câu hỏi 205 câu Các bạn nào đang học vui lòng liên hệ fanpage: Ôn thi cùng Học thông minh để nhận code miễn phí cho môn này"
     },{

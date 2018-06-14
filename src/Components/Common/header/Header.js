@@ -4,7 +4,7 @@ class Header extends Component{
     render(){
         return(
         <div>
-            <nav className="navbar navbar-default navbar-fixed-top">
+            <nav className="navbar navbar-default navbar-fixed-top" id = "navbar-default">
 		<div style={{borderBottom: "1px solid #ddd",width:'100%'}}>
 			<div className="container">
 				<div className="row navbar-first">

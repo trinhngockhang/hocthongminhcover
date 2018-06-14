@@ -9,7 +9,7 @@
 .login-pos-panel {
     float: right;
 }
-.navbar-default {
+#navbar-default {
     background-color: white;
 }
 .navbar {
@@ -372,7 +372,7 @@ li {
     font-style: italic;
 }
 .slide {
-    margin-top: 70px;
+    margin-top: 95px;
 }
 
 .owl-carousel .owl-wrapper-outer {

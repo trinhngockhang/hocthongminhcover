@@ -1,7 +1,36 @@
 import React,{Component} from 'react';
 import {Data} from './Data';
 class HotCourse extends Component{
+    renderStar = (rate) => {
+        var indents = [];
+        if(rate == 0.5) {
+             indents.push(<i class="fa fa-star-half-o" aria-hidden="true" style="color: #F6B05B"></i>)
+        }
+        else if(rate == 0) {
+             indents.push(<i class="fa fa-star" aria-hidden="true" style="color: #ddd"></i>)
+        } else {
+            for (let index = 1; index <=rate ; index++) {        
+                if(index <= Data.rate && rate - index !== 0.5){
+                   
+                         indents.push(<i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>)
+                    
+                }else if(index - Data.rate == 0.5){
+                   
+                        indents.push(<i class="fa fa-star-half-o" aria-hidden="true" style="color: #F6B05B"></i>)
+                    
+                }else{
+                    
+                        indents.push(<i class="fa fa-star" aria-hidden="true" style="color: #ddd"></i>)
+                    
+                }
+            }
+        }
+       
+        return indents;
+    }
+    
     render(){
+        console.log(this.renderStar(4));
         return(
             <div className="container hot-course" id="course-scroll">
 		    <div className="title-main">
@@ -39,16 +68,13 @@ class HotCourse extends Component{
                                      <img className="img-persion-num" src={require('../../../static/images/default/member-01.png')}/>
                                     <p className="text-persion-num" style={{display: 'inline-block'}}>{object.users}</p>
                                     <p className="star-count" style={{display: 'inline-block',float: 'right', paddingTop: '4px'}}>
-                                        {/* {for (let index = 0; index < array.length; index++) {
-                                            const element = array[index];
-                                            
-                                        }
-                                        } */}
+                                        { this.renderStar(object.rate) }
+                                       
+                                        {/* <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
                                         <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
                                         <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
                                         <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
-                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
-                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
+                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i> */}
                                     </p>
                                     </div>
                                     <p className="des-course dot-3" title={object.description}>{object.description}</p>
