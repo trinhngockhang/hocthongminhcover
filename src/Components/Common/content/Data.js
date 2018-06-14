@@ -17,7 +17,7 @@ exports.Data = [
         name: "VNUA Sinh đại cương",
         price: "30.000VND",
         users: "972",
-        rate: "5",
+        rate: "4.5",
         img: "https://storage.googleapis.com/kslearning/images/860348699-1512191789850-582950351-1511147303315-maxresdefault-min (copy).jpg",
         description:"Ngân hàng câu hỏi ôn tập và thi thử môn Sinh học đại cương."
 

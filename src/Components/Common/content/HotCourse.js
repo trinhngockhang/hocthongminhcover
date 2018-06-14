@@ -4,23 +4,32 @@ class HotCourse extends Component{
     renderStar = (rate) => {
         var indents = [];
         if(rate == 0.5) {
-             indents.push(<i class="fa fa-star-half-o" aria-hidden="true" style="color: #F6B05B"></i>)
+             indents.push(<i className="fa fa-star-half-o" aria-hidden="true" style={{color: "#F6B05B"}}></i>)
+             indents.push(<i className="fa fa-star" aria-hidden="true" style={{color: "#ddd"}}></i>)
+             indents.push(<i className="fa fa-star" aria-hidden="true" style={{color: "#ddd"}}></i>)
+             indents.push(<i className="fa fa-star" aria-hidden="true" style={{color: "#ddd"}}></i>)
+             indents.push(<i className="fa fa-star" aria-hidden="true" style={{color: "#ddd"}}></i>)
+
         }
         else if(rate == 0) {
-             indents.push(<i class="fa fa-star" aria-hidden="true" style="color: #ddd"></i>)
+             indents.push(<i className="fa fa-star" aria-hidden="true" style={{color: "#ddd"}}></i>)
+             indents.push(<i className="fa fa-star" aria-hidden="true" style={{color: "#ddd"}}></i>)
+             indents.push(<i className="fa fa-star" aria-hidden="true" style={{color: "#ddd"}}></i>)
+             indents.push(<i className="fa fa-star" aria-hidden="true" style={{color: "#ddd"}}></i>)
+             indents.push(<i className="fa fa-star" aria-hidden="true" style={{color: "#ddd"}}></i>)
         } else {
-            for (let index = 1; index <=rate ; index++) {        
-                if(index <= Data.rate && rate - index !== 0.5){
+            for (let index = 1; index <=5 ; index++) {        
+                if(index <= rate && rate - index !== 0.5){
                    
                          indents.push(<i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>)
                     
-                }else if(index - Data.rate == 0.5){
+                }else if(rate - index == 0.5){
                    
-                        indents.push(<i class="fa fa-star-half-o" aria-hidden="true" style="color: #F6B05B"></i>)
+                        indents.push(<i className="fa fa-star-half-o" aria-hidden="true" style={{color: "#F6B05B"}}></i>)
                     
                 }else{
                     
-                        indents.push(<i class="fa fa-star" aria-hidden="true" style="color: #ddd"></i>)
+                        indents.push(<i className="fa fa-star" aria-hidden="true" style={{color: "#ddd"}}></i>)
                     
                 }
             }
@@ -30,6 +39,7 @@ class HotCourse extends Component{
     }
     
     render(){
+        var that = this;
         console.log(this.renderStar(4));
         return(
             <div className="container hot-course" id="course-scroll">
@@ -68,13 +78,10 @@ class HotCourse extends Component{
                                      <img className="img-persion-num" src={require('../../../static/images/default/member-01.png')}/>
                                     <p className="text-persion-num" style={{display: 'inline-block'}}>{object.users}</p>
                                     <p className="star-count" style={{display: 'inline-block',float: 'right', paddingTop: '4px'}}>
-                                        { this.renderStar(object.rate) }
                                        
-                                        {/* <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
-                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
-                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
-                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i>
-                                        <i className="fa fa-star" ariaHidden="true" style={{color: '#F6B05B'}}></i> */}
+                                    {  that.renderStar(object.rate) }
+                                 
+                                       
                                     </p>
                                     </div>
                                     <p className="des-course dot-3" title={object.description}>{object.description}</p>
