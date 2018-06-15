@@ -670,4 +670,9 @@ li {
         font-size: 13px;
         font-family: SourceSansProLight;
     }
+    .bg-feedback .feedback-parent-panel-1 {
+        padding: 20px 0;
+        padding-right: 20px;
+        margin-left: 21px;
+    }
   }

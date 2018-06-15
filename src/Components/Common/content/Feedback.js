@@ -16,7 +16,7 @@ class Feedback extends Component{
                             <div className="mg-des-feddback des-feddback" id ="feedback-mobile">Nhờ đánh giá của cách chuyên gia 
                             trong lĩnh vực giáo dục và công nghệ giúp chúng tôi hoàn thiện tốt hơn</div>
                             <OwlCarousel  ref="car" options = {options}>
-                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item">
+                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item item1">
                                 <div className="des-feddback frame-des">
                                     <p className="dot-4">
                                         Hệ thống hiện đại, tính bảo mật cao, chống download, sao chép bài giảng. Nền tảng công nghệ tiên tiến, hỗ trợ người dùng tối đa. Giao diện thân thiện, dễ dàng sử dụng
@@ -32,7 +32,7 @@ class Feedback extends Component{
                                 </div>
                                 </div>
                             </div>
-                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item">
+                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item item1">
                                 <div className="des-feddback frame-des">
                                     <p className="dot-4">
                                         Hệ thống đào tạo trực tuyến được xây dựng với những tính năng ưu việt giúp tối ưu hoá việc học, ghi nhớ, trao đổi, tương tác, giúp học viên tiếp thu các kiến thức một cách dễ dàng, hiệu quả và thú vị.
@@ -47,7 +47,7 @@ class Feedback extends Component{
                                     </div>
                                 </div>
                             </div></div>
-                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item">
+                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item item1">
                                 <div className="des-feddback frame-des">
                                     <p className="dot-4">
                                          Giao diện hiện đại chuyên nghiệp. Số lượng khóa học và bài giảng đăng tải lên hệ thống không hạn chế, phù hợp với cả với những trường có quy mô, số lượng học viên lớn. Học viên có thể thấy được nội dung toàn bộ khóa học trước khi giảng viên dạy cho họ
