@@ -1,9 +1,11 @@
 import React,{Component} from 'react';
+import Login from './Login';
 
 class Header extends Component{
     render(){
         return(
         <div>
+			<Login/>
             <nav className="navbar navbar-default navbar-fixed-top" id = "navbar-default">
 		<div style={{borderBottom: "1px solid #ddd",width:'100%'}}>
 			<div className="container">
@@ -21,7 +23,7 @@ class Header extends Component{
 							<a href="/" target="_blank"><i style={{color:'#3fa9f0"'}} className="fa fa-skype"></i></a>
 						</div>
 					</div>
-					<div className="col col-xs-4 col-sm-4">
+					<div className="col col-xs-12 col-sm-4">
 						<input id="search-panel" className="form-control" type="text" placeholder="Tìm kiếm khoá học" />
 					</div>
 					<div className="col col-xs-12 col-sm-4">
@@ -35,10 +37,10 @@ class Header extends Component{
                                         <tbody>
                                             <tr>
                                                 <td align="left" style={{verticalAlign: 'middle'}}>
-                                                <button type="button" className="button-login-main">Đăng nhập</button>
+                                                <button type="button" className="button-login-main" data-toggle="modal" data-target="#myModal">Đăng nhập</button>
                                                 </td>
                                                 <td align="left" style={{verticalAlign: 'middle'}}>
-                                                <button type="button" className="button-login-main">Đăng ký</button>
+                                                <button type="button" className="button-login-main" data-toggle="modal" data-target="#myModal">Đăng ký</button>
                                                 </td>
                                                 </tr>
                                                 </tbody>
@@ -67,16 +69,21 @@ class Header extends Component{
 			</div>
 		</div>
 		<div className="container">
-			<div className="navbar-header">
-				<button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+			<div className="navbar-header ">
+			<a href="/"><img className="logo-main " src={require('../../../static/images/default/logo.png')}/></a>
+			<div className="col  col-sm-4">
+						<input id="search-panel-Mobile" className="form-control mobile" type="text" placeholder="Tìm kiếm khoá học" />
+					</div>
+				<button  type="button" className="navbar-toggle " data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
 						<span className="sr-only">Toggle navigation</span> 
 						<span className="icon-bar"></span> 
 						<span className="icon-bar"></span> 
 						<span className="icon-bar"></span>
 				</button>
-				<a href="/"><img className="logo-main" src={require('../../../static/images/default/logo.png')}/></a>
+				
+			
 			</div>
-			<div id="navbar" className="navbar-collapse collapse" aria-expanded="false">
+			<div id="navbar" className="navbar-collapse collapse" aria-expanded="false" style = {{ overflow: 'none'}}>
 				<ul className="nav navbar-nav navbar-nav-list-header" id="menuright">
 					<li className=""><a href="#" onclick="scrollToElement('html, body', '#first-slide-banner', 60);">TRANG CHỦ</a></li>
 					<li><a href="#course" onclick="scrollToElement('html, body', '#course-scroll', 0);">KHOÁ HỌC</a></li>
@@ -90,6 +97,7 @@ class Header extends Component{
 			</div>
 		</div>
 	</nav>
+	
         </div>
      )
 }

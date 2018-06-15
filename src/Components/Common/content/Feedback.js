@@ -13,10 +13,10 @@ class Feedback extends Component{
                 <div className="col col-xs-12 col-sm-6 feedback-parent-panel-1">
                     <div className="title-feebback">ĐÁNH GIÁ CỦA CHUYÊN GIA</div>
                             <div className="short-line"></div>
-                            <div className="mg-des-feddback des-feddback">Nhờ đánh giá của cách chuyên gia 
+                            <div className="mg-des-feddback des-feddback" id ="feedback-mobile">Nhờ đánh giá của cách chuyên gia 
                             trong lĩnh vực giáo dục và công nghệ giúp chúng tôi hoàn thiện tốt hơn</div>
                             <OwlCarousel  ref="car" options = {options}>
-                            <div className="owl-item" style={{width: '550px'}}><div className="item">
+                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item">
                                 <div className="des-feddback frame-des">
                                     <p className="dot-4">
                                         Hệ thống hiện đại, tính bảo mật cao, chống download, sao chép bài giảng. Nền tảng công nghệ tiên tiến, hỗ trợ người dùng tối đa. Giao diện thân thiện, dễ dàng sử dụng
@@ -32,7 +32,7 @@ class Feedback extends Component{
                                 </div>
                                 </div>
                             </div>
-                            <div className="owl-item" style={{width: '550px'}}><div className="item">
+                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item">
                                 <div className="des-feddback frame-des">
                                     <p className="dot-4">
                                         Hệ thống đào tạo trực tuyến được xây dựng với những tính năng ưu việt giúp tối ưu hoá việc học, ghi nhớ, trao đổi, tương tác, giúp học viên tiếp thu các kiến thức một cách dễ dàng, hiệu quả và thú vị.
@@ -47,7 +47,7 @@ class Feedback extends Component{
                                     </div>
                                 </div>
                             </div></div>
-                            <div className="owl-item" style={{width: '550px'}}><div className="item">
+                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item">
                                 <div className="des-feddback frame-des">
                                     <p className="dot-4">
                                          Giao diện hiện đại chuyên nghiệp. Số lượng khóa học và bài giảng đăng tải lên hệ thống không hạn chế, phù hợp với cả với những trường có quy mô, số lượng học viên lớn. Học viên có thể thấy được nội dung toàn bộ khóa học trước khi giảng viên dạy cho họ
@@ -75,10 +75,10 @@ class Feedback extends Component{
                 <div className="col col-xs-12 col-sm-6 feedback-parent-panel-2">
                     <div className="title-feebback">CẢM NHẬN CỦA HỌC VIÊN</div>
                     <div className="short-line"></div>
-                    <div className="mg-des-feddback des-feddback">Năm 2018, chúng tôi có hơn 300.0000 học viên đến từ nhiều quốc gia khác nhau</div>
+                    <div className="mg-des-feddback des-feddback" id ="feedback-mobile">Năm 2018, chúng tôi có hơn 300.0000 học viên đến từ nhiều quốc gia khác nhau</div>
                    
                     <OwlCarousel ref="car" options = {options} style={{width: '3300px',left: '0px', display: 'block'}}>
-                    <div className="owl-item" style={{width: '550px'}}><div className="item">
+                    <div className="owl-item" style={{width: '550px'}}><div className="item" id="item">
                                 <div className="des-feddback frame-des">
                                     <p className="dot-5">
                                         Học kỳ vừa rồi được bạn bè giới thiệu Học thông minh, cả 2 môn pháp luật đại cương và tin học đại cương thi cuối kỳ em đều được 10, còn kinh tế vi mô sai 2 câu nên được 9,6. Kỳ nay em tiếp tục sử dụng Học thông minh để học môn kinh tế vĩ mô, hi vọng sẽ tiếp tục đạt điểm cao.
@@ -93,7 +93,7 @@ class Feedback extends Component{
                                 </div>
                                 </div>
                             </div>
-                            <div className="owl-item" style={{width: '550px'}}><div className="item">
+                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item">
                                 <div className="des-feddback frame-des">
                                     <p className="dot-5">
                                         Hocthongminh là một trang web học tập vô cùng bổ ích với số bộ câu hỏi đầy đủ, bám sát kì thi thật. Một điều đặc biệt mình rất thích khi sử dụng Hocthongminh là HỌC RẤT NHANH THUỘC các câu hỏi lý thuyết. Quả đúng là Học thông minh không sai chút nào.
@@ -108,10 +108,10 @@ class Feedback extends Component{
                                 </div>
                                 </div>
                             </div>
-                            <div className="owl-item" style={{width: '550px'}}><div className="item">
+                            <div className="owl-item" style={{width: '550px'}}><div className="item" id="item">
                                 <div className="des-feddback frame-des">
                                     <p className="dot-5">
-                                        Trong thời gian học tập trên Hocthongminh em thực sự rất ấn tượng bởi hệ thống các câu hỏi lý thuyết bám sát kì thi thật&nbsp; qua đó giúp mình cải thiện đáng kể điểm thi mỗi kì. Đặc biệt là môn Đường lối cách mạng là môn phải học thuộc rất nhiều và mình không biết làm cách nào để có thể học được và càng không dám nghĩ đến là việc học tốt và đạt được số điểm như hiện tại. Chúc Hocthongminh ngày càng phát triển để giúp cho những lứa sinh viên như bọn mình đỡ mệt mỏi trong việc thi cử.
+                                        Trong thời gian học tập trên Hocthongminh em thực sự rất ấn tượng bởi hệ thống các câu hỏi lý thuyết bám sát kì thi thật&nbsp; qua đó giúp mình cải thiện đáng kể điểm thi mỗi kì. Đặc biệt là môn Đường lối cách mạng là môn phải học thuộc rất nhiều và mình không biết làm cách nào để có thể học được và càng không dám nghĩ đến là việc học tốt và đạt được số điểm như hiện tại.
                                     </p>
                                 </div>
                                 <div className="director-info">

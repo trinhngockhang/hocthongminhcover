@@ -366,6 +366,110 @@ li {
 .dot-4 {
     -webkit-line-clamp: 4!important;
 }
+.JIB {
+    padding: 20px 10px;
+}
+.CJB {
+    overflow: hidden;
+}
+.GJB {
+    display: block;
+    padding: 7px 10px;
+    margin-top: 10px;
+    border-radius: 0;
+    margin-top: 15px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.075);
+}
+.GIB {
+    margin-bottom: 15px;
+}
+#navbar {
+    overflow: none;
+    width: 100%;
+}
+.MIB {
+    margin-bottom: 15px;
+    color: red;
+    text-align: left;
+}   
+.gwt-HTML {
+    padding: 0 0px;
+}
+.PIB {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+.JIB {
+    padding: 20px 10px;
+}
+.DJB {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0 0 0;
+}
+.LIB {
+    background: url(../images/Facebook.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-color: #4c6997 !important;
+    background-position: 5px center;
+    color: white;
+    font-size: 1em;
+    padding: 7px 0 7px 35px;
+    cursor: pointer;
+    border-radius: 20px;
+    max-width: 190px;
+    margin: 0 auto;
+}
+
+
+.HIB {
+    cursor: pointer;
+    color: #1d9fd9;
+    text-align: right;
+}
+.buttonLoading {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    border: 0;
+}
+.OIB {
+    color: #4c6997;
+    font-size: 1.7em;
+    text-align: left;
+    padding: 2px 0 2px 5px;
+    border-left: 5px solid #4c6997;
+}
+.KIB {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+.buttonLoading {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    border: 0;
+}
+.EJB {
+    border-right: 1px solid #c8c9cc;
+}
+.OIB {
+    color: #4c6997;
+    font-size: 1.7em;
+    text-align: left;
+    padding: 2px 0 2px 5px;
+    border-left: 5px solid #4c6997;
+}
 .des-time {
     font-family: SourceSansProLight;
     font-size: 13px;
@@ -374,7 +478,12 @@ li {
 .slide {
     margin-top: 95px;
 }
-
+.modal-panel{
+    z-index: 2000;
+} 
+.modal-backdrop {
+    z-index: 1025;
+}
 .owl-carousel .owl-wrapper-outer {
     overflow: hidden;
 }
@@ -436,3 +545,129 @@ li {
 .bg-feedback {
     overflow: hidden;
 }
+
+.frame-des {
+    background: rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    position: relative;
+    margin-bottom: 25px;
+    font-family: SourceSansProLight;
+    letter-spacing: 1;
+    font-size: 13px;
+    height: 130px;
+}
+#search-panel-Mobile {
+    display: none;
+}
+#fb-mobile{
+    display: none;
+}
+.owl-item {
+    width: 285px;
+}
+@media only screen and (max-width: 480px){
+    .director-info > * {
+        color: black;
+    }
+    #owl-mobile2 {
+        margin-left: -42px;
+    }
+    .bg-news {
+        background-size: auto;
+    }
+    .owl-item {
+        width: 20%;
+    }
+    .frame-des {
+        height: auto;
+    }
+    #item {
+        max-width: 56%;
+        height: auto;
+    }
+    #director-avatar {
+        margin: auto;
+    }
+    #fb{
+        display: none;
+    }
+    #fb-mobile{
+        display: block;
+    }
+    #search-panel-Mobile {
+        width: 95%;
+        display: block;
+        margin-top: 12px;
+        border-radius: 36px;
+    }
+    .navbar-header {
+        display: -webkit-inline-box;
+    }
+    #search-panel {
+        display: none;
+    }
+    .logo-main {
+        margin-left: 33px;
+    }
+    .modal-dialog{
+        width: 76%;
+        margin: auto;
+    }
+    #feedback-mobile{
+        color: #333;
+    }
+    table {
+        background-color: transparent;
+        margin: auto;
+    }
+    .navbar-first .form-control {
+        width: 300px;
+    }
+    .navbar-header {
+        width:100%;
+        float: left;
+    }
+    .login-pos-panel {
+        float: none;
+    }
+    .navbar-toggle {
+        float:right;
+    } 
+    #menuright {
+        float: none;
+    }
+    .navbar-nav-list-header > li a {
+        padding: 10px;
+        width: 50%;
+        float: left;
+    }
+    .item {
+        max-width: 64%;
+        height: auto;
+    }
+    .navbar-nav-list-header > li a {
+        padding: 10px;
+        width: 50%;
+        float: left;
+    }
+    .title-feebback {
+        font-size: 25px;
+        color: black;
+    }
+    .slide {
+        margin-top: 155px;
+    }
+    .bg-feedback {
+        background-image: none;
+    }
+    .bg-why {
+        background-image: none;
+      
+    }
+    .des-feddback {
+        color: #ddd;
+        font-weight: 200;
+        font-size: 13px;
+        font-family: SourceSansProLight;
+    }
+  }

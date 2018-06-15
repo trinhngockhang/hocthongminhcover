@@ -42,7 +42,7 @@ class HotCourse extends Component{
         var that = this;
         console.log(this.renderStar(4));
         return(
-            <div className="container hot-course" id="course-scroll">
+            <div className="container hot-course" id="course">
 		    <div className="title-main">
 			    <div>KHOÁ HỌC NỔI BẬT</div>
 		    </div>
