@@ -17,10 +17,10 @@ class Login extends Component {
                                                 <div className="OIB">Đăng nhập</div>
                                                 
                                                 <div className="CJB" style={{ width: '100%' }}><input type="text" className="form-control GJB" placeholder="Tài khoản (*)" />
-                                                    <input className="form-control GJB GIB" type="password" autocomplete="on" placeholder="Mật khẩu (*)" />
+                                                    <input className="form-control GJB GIB" type="password" autoComplete="on" placeholder="Mật khẩu (*)" />
                                                     <div className="gwt-Label MIB"></div>
                                                 </div>
-                                                <table cellspacing="0" cellPadding="0" style={{ width: '100%' }}>
+                                                <table cellSpacing="0" cellPadding="0" style={{ width: '100%' }}>
                                                     <tbody><tr>
                                                         <td align="left" style={{ verticalAlign: 'middle' }}>
                                                             <div className="cbMemberPass">
@@ -57,7 +57,7 @@ class Login extends Component {
                                                                         <input type="text" className="form-control GJB" placeholder="Họ tên (*)" />
                                                                         </div>
                                                                             <div className="col-xs-12 col-sm-12 col-md-6">
-                                                                            <input className="form-control GJB" type="password" autocomplete="on" placeholder="Mật khẩu (*)" /></div>
+                                                                            <input className="form-control GJB" type="password" autoComplete="on" placeholder="Mật khẩu (*)" /></div>
                                                                             <div className="col-xs-12 col-sm-12 col-md-6" aria-hidden="true" style={{display: 'none'}}>
                                                                                 <select className="form-control GJB">
                                                                                 <option value="0">Nam</option>
@@ -68,7 +68,7 @@ class Login extends Component {
                                                                                 <input type="text" className="form-control GJB" placeholder="Email (*)" />
                                                                                 </div>
                                                                                 <div className="col-xs-12 col-sm-12 col-md-6">
-                                                                                <input className="form-control GJB" type="password" autocomplete="on" placeholder="Xác nhận mật khẩu (*)" />
+                                                                                <input className="form-control GJB" type="password" autoComplete="on" placeholder="Xác nhận mật khẩu (*)" />
                                                                                 </div>
                                                                                 <div className="col-xs-12 col-sm-12 col-md-6">
                                                                                 <input type="text" className="form-control GJB" placeholder="Số điện thoại"/>
